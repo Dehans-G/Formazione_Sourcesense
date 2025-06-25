@@ -1,5 +1,3 @@
-
-
 Cleanup
 Run as root, of course.
 Questi sono commenti che indicano lo scopo dello script (ripulire i log) e ricordano che deve essere eseguito come utente root, perché si lavora in /var/log

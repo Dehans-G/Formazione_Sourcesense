@@ -1,0 +1,17 @@
+# Accedere alla home directory dell'utente root
+cd ~
+
+# Creare un file vuoto chiamato foo.log
+> foo.log
+
+# Impostare i permessi a 0700 al file foo.log
+install -m 700 /dev/null foo.log
+
+# Creare un nuovo gruppo chiamato foobar
+addgroup foobar
+
+# Assegnare il gruppo foobar come gruppo proprietario del file
+chgrp foobar foo.log
+
+# Verificare i permessi e la proprietà del file
+ls -l
